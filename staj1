@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ehsim A.Ş. Anketi</title>
+  <style>
+    /* CSS Stillerini burada tanımlayın */
+    .survey-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question-title {
+      font-weight: bold;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .options input[type="radio"],
+    .options input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .comments-label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .comments-textarea {
+      width: 100%;
+      height: 100px;
+    }
+    .submit-btn {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
