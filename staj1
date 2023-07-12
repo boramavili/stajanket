@@ -41,3 +41,29 @@
       text-align: center;
     }
   </style>
+</head>
+<body>
+  <div class="survey-container">
+    <h1>Ehsim A.Ş. Anketi</h1>
+    <form id="survey-form">
+      <div class="question">
+        <p class="question-title">1. Ehsim A.Ş. hakkında nasıl bilgi sahibi oldunuz?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="how-heard" value="internet">
+            İnternet araması sonucunda
+          </label>
+          <label>
+            <input type="radio" name="how-heard" value="recommendation">
+            Tavsiye üzerine
+          </label>
+          <label>
+            <input type="radio" name="how-heard" value="advertisement">
+            Reklam yoluyla
+          </label>
+          <label>
+            <input type="radio" name="how-heard" value="other">
+            Diğer
+          </label>
+        </div>
+      </div>
