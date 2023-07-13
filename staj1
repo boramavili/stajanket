@@ -67,3 +67,22 @@
           </label>
         </div>
       </div>
+       <div class="question">
+        <p class="question-title">3. Eğer Ehsim A.Ş.'nin hizmetlerini kullandıysanız, aşağıdakilerden en çok hangisi hoşunuza gitti?</p>
+        <div class="options">
+          <label>
+            <input type="checkbox" name="service-experience" value="customer-service">
+            Müşteri hizmetleri memnuniyeti
+          </label>
+          <label>
+            <input type="checkbox" name="service-experience" value="product-quality">
+            Ürün kalitesi
+          </label>
+          <label>
+            <input type="checkbox" name="service-experience" value="delivery-time">
+            Teslimat süresi
+          </label>
+          <label>
+            <input type="checkbox" name="service-experience" value="pricing">
+            Fiyatlandırma politikası
+          </label>
