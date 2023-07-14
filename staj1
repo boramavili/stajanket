@@ -86,3 +86,20 @@
             <input type="checkbox" name="service-experience" value="pricing">
             Fiyatlandırma politikası
           </label>
+ </div>
+      </div>
+      <div class="question">
+        <p class="question-title">4. Ehsim A.Ş.'nin hizmetlerini değerlendirirken aşağıdaki kriterlerden hangilerini göz önünde bulunduruyorsunuz?</p>
+        <div class="options">
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="quality">
+            Kalite
+          </label>
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="price">
+            Fiyat
+          </label>
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="customer-service">
+            Müşteri hizmetleri
+          </label>
