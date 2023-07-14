@@ -103,3 +103,9 @@
             <input type="checkbox" name="evaluation-criteria" value="customer-service">
             Müşteri hizmetleri
           </label>
+<label>
+            <input type="checkbox" name="evaluation-criteria" value="delivery">
+            Teslimat süreci
+          </label>
+        </div>
+      </div>
