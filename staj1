@@ -109,3 +109,13 @@
           </label>
         </div>
       </div>
+<div class="question">
+        <p class="question-title">5. Ehsim A.Ş. hakkında herhangi bir ek yorumunuz var mı?</p>
+        <label class="comments-label" for="comments">Yorumlarınız:</label>
+        <textarea id="comments" name="comments" class="comments-textarea"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Gönder</button>
+    </form>
+  </div>
+</body>
+</html>
