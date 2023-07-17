@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ehsim A.Ş. Anketi</title>
+  <style>
+    /* CSS Stillerini burada tanımlayın */
+    .survey-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question-title {
+      font-weight: bold;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .options input[type="radio"],
+    .options input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .comments-label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .comments-textarea {
+      width: 100%;
+      height: 100px;
+    }
+    .submit-btn {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="survey-container">
+    <h1>Ehsim A.Ş. Anketi</h1>
+    <form id="survey-form">
+      <div class="question">
+        <p class="question-title">1. Ehsim A.Ş. hakkında nasıl bilgi sahibi oldunuz?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="how-heard" value="internet">
+            İnternet araması sonucunda
+          </label>
+          <label>
+            <input type="radio" name="how-heard" value="recommendation">
+            Tavsiye üzerine
+          </label>
+          <label>
+            <input type="radio" name="how-heard" value="advertisement">
+            Reklam yoluyla
+          </label>
+          <label>
+            <input type="radio" name="how-heard" value="other">
+            Diğer
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <p class="question-title">2. Ehsim A.Ş.'nin hizmetlerini kullandınız mı?</p>
+        <div class="options">
+          <label>
+            <input type="radio" name="used-services" value="yes">
+            Evet
+          </label>
+          <label>
+            <input type="radio" name="used-services" value="no">
+            Hayır
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <p class="question-title">3. Eğer Ehsim A.Ş.'nin hizmetlerini kullandıysanız, aşağıdakilerden en çok hangisi hoşunuza gitti?</p>
+        <div class="options">
+          <label>
+            <input type="checkbox" name="service-experience" value="customer-service">
+            Müşteri hizmetleri memnuniyeti
+          </label>
+          <label>
+            <input type="checkbox" name="service-experience" value="product-quality">
+            Ürün kalitesi
+          </label>
+          <label>
+            <input type="checkbox" name="service-experience" value="delivery-time">
+            Teslimat süresi
+          </label>
+          <label>
+            <input type="checkbox" name="service-experience" value="pricing">
+            Fiyatlandırma politikası
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <p class="question-title">4. Ehsim A.Ş.'nin hizmetlerini değerlendirirken aşağıdaki kriterlerden hangilerini göz önünde bulunduruyorsunuz?</p>
+        <div class="options">
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="quality">
+            Kalite
+          </label>
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="price">
+            Fiyat
+          </label>
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="customer-service">
+            Müşteri hizmetleri
+          </label>
+          <label>
+            <input type="checkbox" name="evaluation-criteria" value="delivery">
+            Teslimat süreci
+          </label>
+        </div>
+      </div>
+      <div class="question">
+        <p class="question-title">5. Ehsim A.Ş. hakkında herhangi bir ek yorumunuz var mı?</p>
+        <label class="comments-label" for="comments">Yorumlarınız:</label>
+        <textarea id="comments" name="comments" class="comments-textarea"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Gönder</button>
+    </form>
+  </div>
+</body>
+</html>
